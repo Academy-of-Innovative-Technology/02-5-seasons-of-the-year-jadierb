@@ -4,24 +4,24 @@ var summer = ["June", "July", "August"];
 var fall = ["September", "October", "November"];
 
 var winterImages = [
-	"https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=300",
-	"https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300",
-	"https://images.unsplash.com/photo-1486308510493-cb6f5d2fif3b?w=300",
+	"https://images.unsplash.com/photo-1518873890627-d4b177c06e51?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ludGVyJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww",
+	"https://images.unsplash.com/photo-1518873890627-d4b177c06e51?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ludGVyJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww",
+	"https://images.unsplash.com/photo-1518873890627-d4b177c06e51?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ludGVyJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww",
 ]
 var springImages = [
-	"https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=300",
-	"https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300",
-	"https://images.unsplash.com/photo-1486308510493-cb6f5d2fif3b?w=300",
+	"https://publish.illinois.edu/prelawadvising/files/2021/03/spring.jpg",
+	"https://publish.illinois.edu/prelawadvising/files/2021/03/spring.jpg",
+	"https://publish.illinois.edu/prelawadvising/files/2021/03/spring.jpg",
 ]
 var summerImages = [
-	"https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=300",
-	"https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300",
-	"https://images.unsplash.com/photo-1486308510493-cb6f5d2fif3b?w=300",
+	"https://hilo.hawaii.edu/depts/summer/images/depts/summer/photos/KonaSunset.jpg",
+	"https://hilo.hawaii.edu/depts/summer/images/depts/summer/photos/KonaSunset.jpg",
+	"https://hilo.hawaii.edu/depts/summer/images/depts/summer/photos/KonaSunset.jpg",
 ]
 var fallImages = [
-	"https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=300",
-	"https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300",
-	"https://images.unsplash.com/photo-1486308510493-cb6f5d2fif3b?w=300",
+	"https://vermontvacation.com/wp-content/uploads/2023/08/webimage-20201004_vtweybridge-14.png",
+	"https://vermontvacation.com/wp-content/uploads/2023/08/webimage-20201004_vtweybridge-14.png",
+	"https://vermontvacation.com/wp-content/uploads/2023/08/webimage-20201004_vtweybridge-14.png",
 ];
 
 
@@ -95,7 +95,11 @@ function displayFall() {
 
 function displayAllSeasons() {
 	displayWinter();
-
-
-	
+	displaySpring();
+	displaySummer();
+	displayFall();
 }
+
+displayAllSeasons();
+	
+
