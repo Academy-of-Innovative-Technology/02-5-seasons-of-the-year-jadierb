@@ -1,7 +1,7 @@
-var winter;
-var spring;
-var summer;
-var fall;
+var winter = ["December", "January", "February"];
+var spring = ["March", "April", "May"];
+var summer = ["June", "July", "August"];
+var fall = ["September", "October", "November"];
 
 var winterImages;
 var springImages;
