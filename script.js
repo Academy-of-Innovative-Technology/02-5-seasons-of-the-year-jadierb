@@ -63,13 +63,35 @@ function displaySpring() {
 }
 
 function displaySummer() {
-
+let html = "";
+for (let i in summer) {
+	html += `<div class="col-md-4">
+		<div class="month-card">
+			<img src="${summerImages[i]}" alt="${summer[i]}">
+			<div class="month-card-body">
+				<h5>${summer[i]}</h5>
+			</div>
+		</div>
+	</div>`
+	;
+}
+document.querySelector(".summer").insertAdjacentHTML("beforeend", html);
 }
 
 function displayFall() {
-
+ let html = "";
+ fall.forEach((month, index) => {
+	html += `<div class="col-md-4">
+		<div class="month-card">
+			<img src="${fallImages[index]}" alt="${month}">
+			<div class="month-card-body">
+				<h5>${month}</h5>
+			</div>
+		</div>
+	</div>`;
+ });
+ document.querySelector(".fall").insertAdjacentHTML("beforeend", html);
 }
-
 
 function displayAllSeasons() {
 	displayWinter();
