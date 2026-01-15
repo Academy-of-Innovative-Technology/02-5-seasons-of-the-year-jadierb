@@ -27,11 +27,26 @@ var fallImages = [
 
 function displayWinter() {
 
+    let html = "";
+	for (let i = 0; i < winter.length; i++) {
+		html +=  `<div class="col-md-4">
+		<div class="month-card">
+		<img src="${winterImages[i]}" alt="${winter[i]}">
+		<div class="month-card-body">
+		<h5>${winter[i]}</h5>
+	</div>
+</div>
+</div>`
+;
+	}
+	document.querySelector(".winter").insertAdjacentHTML("beforeend",
+		 html);
 }
 
 
 function displaySpring() {
 
+	
 }
 
 function displaySummer() {
