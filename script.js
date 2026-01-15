@@ -46,7 +46,20 @@ function displayWinter() {
 
 function displaySpring() {
 
-	
+	let html = "";
+	spring.forEach((month,Index) => {
+		html += `<div class="col-md-4">
+		<div class="month-card">
+		<img src="${springImages[Index]}" alt="${month}">
+		<div class="month-card-body">
+		<h5>${month}</h5>
+	</div>
+</div>
+</div>`
+;
+	});
+	document.querySelector(".spring").insertAdjacentHTML("beforeend",
+		 html);
 }
 
 function displaySummer() {
